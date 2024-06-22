@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.stopwatch, .control, .container{
+    border-radius: 20px;
+}
+.stopwatch{
+    background-color: gray;
+    font-size: 7rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+    min-width: 45vw;
+    padding: 2rem 0em;
+    text-align: cente   r;
+    border-radius: 20px 20px 0 0;
+}
+.control{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.control button{
+    width: 5rem;
+    padding: .5rem 0rem;
+    margin-right: 1em;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    
+
+}
